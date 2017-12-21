@@ -1,0 +1,365 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1589px)
+	/**/
+	.menu 
+		ul 
+			li
+				padding: 0 10px
+	.head-phone 
+		p
+			font-size: 16px
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	.menu 
+		ul 
+			li
+	.head-phone-wrap
+		p
+			font-size: 14px
+	.foot-3 
+		a
+			margin: 2px
+	.testomonial-wrap 
+		.testomonial 
+			p
+				font-size: 16px
+	.f-text
+		p
+			font-size: 16px
+			margin-top: 14px
+		h3
+			font-size: 22px
+		span
+			font-size: 16px
+@media only screen and (max-width : 1130px)
+	.menu 
+		ul 
+			li
+				padding: 0 5px
+				a
+					font-size: 16px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.head-phone-wrap
+		p
+			font-size: 16px
+	.ak
+		font-size: 24px
+	.cili
+		font-size: 15px
+	.s3-title 
+		p
+			font-size: 66px
+	.s1-logo-wrap 
+		h1
+			font-size: 48px
+		h4
+			padding: 0 100px
+	.section-8 
+		.s8-form 
+			form 
+				button
+					padding: 15px 100px
+	.ss3-box
+		height: 650px
+	.foot-3 
+		a
+			display: inline-block
+	.testomonial-wrap 
+		.testomonial 
+			p
+				font-size: 12px
+	.f-text
+		p
+			font-size: 14px
+			margin-top: 12px
+		h3
+			font-size: 20px
+		span
+			font-size: 14px
+	.menu-btn
+		position: absolute
+		top: -25px
+		left: 50%
+		right: 50%
+		width: 30px
+		margin: 0 -15px 0 -15px
+		height: 50px
+		cursor: pointer
+	.responsive-menu
+		transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1)
+		.expand
+			display: block !important
+
+	.bar
+		width: 30px
+		height: 3px
+		&:after, &:before
+			width: 30px
+			height: 3px
+		position: relative
+		transform: translateY(25px)
+		background: #7f7f7f
+		transition: all 0ms 300ms
+		&:before
+			content: ""
+			position: absolute
+			left: 0
+			bottom: 10px
+			background: #7f7f7f
+			transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+		&:after
+			content: ""
+			position: absolute
+			left: 0
+			top: 10px
+			background: #7f7f7f
+			transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+	.animate
+		background: rgba(255, 255, 255, 0)
+		&:after
+			top: 0
+			transform: rotate(45deg)
+			transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1)
+		&:before
+			bottom: 0
+			transform: rotate(-45deg)
+			transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1)
+	.responsive-menu
+		display: none
+	.menu 
+		ul 
+			li
+				display: block
+				padding: 10px 0
+	.logo-wrap,
+	.menu-wrap
+		border: none
+	.menu
+		padding-top: 30px
+		ul
+			li
+				ul
+					margin-left: 0
+					margin-right: 0
+					width: 100% !important
+					li
+						text-align: center
+	.menu-wrap
+		margin: 30px auto 10px
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	/**/
+	.section-1
+		height: 580px
+		.container
+			height: 580px
+	.s1-logo-wrap 
+		h1
+			font-size: 42px
+			padding: 0 60px
+		h4
+			padding: 0 60px
+	.foot-3
+		a
+			display: block
+			width: 40px
+	.foot-1 
+		span
+			font-size: 18px
+
+	.s3-title
+		p
+			font-size: 44px
+	.section-8 
+		.s8-form 
+			form 
+				button
+					padding: 15px 100px
+	
+	
+	.box-wrap
+		margin-bottom: 10px
+	footer
+		text-align: center
+	.foot-3 
+		a
+			display: inline-block
+	.s11-img
+		text-align: center
+	.s7-wrap
+		height: auto
+		.s3-text
+			height: auto
+			padding-top: 30px
+	.s7-img-wrap
+		margin-right: 15px
+	.section-4 
+		padding: 0
+		.s4-wrap
+			padding: 10px 30px 40px
+			input[type=text]
+				margin-top: 20px
+			button
+				margin-top: 20px
+				display: block
+	.s6-box
+		margin-top: 10px
+	.s3-title 
+		p
+			margin-top: -40px
+	.s3-img
+		margin-bottom: 50px
+	.s9-box
+		margin-bottom: 25px
+	.section-titles 
+		p
+			margin-top: -70px
+			font-size: 66px
+	.testomonial-wrap 
+		.test-img
+			display: none
+	.testomonial-wrap 
+		.testomonial
+			padding: 20px
+			margin: 0
+			height: auto
+			p
+				font-size: 16px
+	.ts3-box-wrap
+		margin: 10px 0
+	.pc-box
+		margin: 10px 0
+	.p-person-img-wrap 
+		margin-bottom: 100px
+		span
+			display: none
+
+	.f-text
+		
+		display: table
+		padding: 30px 0
+		.f-text-last-last::nth-of-type(1)
+			display:table-header-group
+		.f-img-5::nth-of-type(2)
+			display:table-footer-group
+		p
+			font-size: 18px
+			margin-top: 20px
+		h3
+			font-size: 30px
+		span
+			font-size: 18px
+		hr
+			margin-left: 0
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	.section-1
+		height: 440px
+		img
+			height: 100%
+		.container
+			height: 440px
+	.s1-logo-wrap 
+		h4,
+		h1
+			padding: 0 20px
+		h1
+			font-size: 38px
+		h4
+			letter-spacing: 1px
+	.section-3
+		padding-bottom: 20px
+	.s3-title
+		margin-top: 60px
+		p
+			margin-top: -36px
+	.s3-2
+		margin-top: 30px
+	.s3-text
+		margin-bottom: 15px
+		p
+			font-size: 16px
+		
+	
+	.section-5
+		padding: 30px
+	
+	
+	.section-9
+		padding: 25px 0 0 0
+	.s10-box
+		margin-right: 20px
+		margin-left: 20px
+	.section-titles 
+		p
+			font-size: 66px
+	.pp-s2-wrap
+		margin-top: 40px
+	
+	
+	
+
+	
+	
+
+
+	
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	.s5-wrap 
+		p
+			font-size: 16px
+	.section-titles 
+		p
+			font-size: 46px
+	.s8-form 
+		form 
+			button
+				padding: 15px 80px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
