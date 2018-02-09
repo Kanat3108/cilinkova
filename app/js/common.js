@@ -50,7 +50,7 @@ $(function() {
         url: "mail.php", //Change
         data: th.serialize()
       }).done(function() {
-        alert("Thank you!");
+        alert("Děkujeme za Vaši zprávu, budeme Vás kontaktovat, co nejdříve.");
         setTimeout(function() {
           // Done Functions
           th.trigger("reset");

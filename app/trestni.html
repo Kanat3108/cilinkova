@@ -122,12 +122,17 @@
 					<p>V případě, že naší kanceláři vložíte svou důvěru, můžeme bez obav garantovat, že částka vymožená za Vaše útrapy bude ta nejvyšší možná.</p>
 				</div>
 				<div class="col-md-6 s8-form">
-					<form>
+					<form type="POST" action="#">
+						<!-- Hidden Required Fields -->
+									<input type="hidden" name="project_name" value="Site Name">
+									<input type="hidden" name="admin_email" value="office@akcilinkova.cz">
+									<input type="hidden" name="form_subject" value="Form Subject">
+								<!-- END Hidden Required Fields -->
 						<input type="text" name="name" required placeholder="Jméno">
 						<input type="text" name="email" required placeholder="E-mail">
 						<input type="text" name="phone-number" required placeholder="Telefon">
 						<textarea name="message" cols="40" rows="5" placeholder="Zpráva"></textarea>
-						<button>Odeslat</button>
+						<button  type="submit">Odeslat</button>
 					</form>
 				</div>
 			</div>
